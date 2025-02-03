@@ -47,8 +47,10 @@ let t_year= s_arr[0]+year; // temporary year for calculation
         if(e_arr[2]>=s_arr[2]){
             month++;
             t_month++;
+            day=e_arr[2]-s_arr[2];
         }
-        day=arr[e_arr[2]-1]-e_arr[2]+s_arr[2];
+        else
+        day=arr[e_arr[1]-1]-e_arr[2]+s_arr[2];
     }
     else if(e_arr[1]==s_arr[1]){
         if(e_arr[2]>=s_arr[2]){
