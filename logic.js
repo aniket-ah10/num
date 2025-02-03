@@ -50,7 +50,7 @@ let t_year= s_arr[0]+year; // temporary year for calculation
             day=e_arr[2]-s_arr[2];
         }
         else
-        day=arr[e_arr[1]-1]-e_arr[2]+s_arr[2];
+        day=arr[e_arr[1]-1]-s_arr[2]+e_arr[2];
     }
     else if(e_arr[1]==s_arr[1]){
         if(e_arr[2]>=s_arr[2]){
@@ -81,7 +81,6 @@ for(let p = s_arr[0];p<e_arr[0];p++){
     else{
         day1 = year_arr[s_arr[0]%4];
         day2 = year_arr[e_arr[0]%4];
-        //let arr = [0,31,28,31,30,31,30,31,31,30,31,30,31];
         for(let a = 1; a<s_arr[1];a++){
             days1 = days1+arr[a];
         }
@@ -96,7 +95,6 @@ for(let p = s_arr[0];p<e_arr[0];p++){
     }
 }
 if(e_arr[0]==s_arr[0]){
-    //let arr = [0,31,28,31,30,31,30,31,31,30,31,30,31];
     if(s_arr[0]%4==0){
         arr[2]=29;
     }
