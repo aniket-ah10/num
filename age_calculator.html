@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How old are you ?</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel ="icon" type="image/x-icon" href ="./num-high-resolution-logo.png">
+</head>
+<body>
+    <h2 id="h2" class="Oswald">How old are you ?</h2>
+    <div id="inner">
+        <form id ="dates" method="get">
+            <div id="for_style"><label for="birth_date">Birth Date</label>
+            <input type="date" id="start_date" name="start_date" required>
+            <label for="today_date" >Today Date</label>
+            <input type="date" id="end_date" name="end_date" required>
+            </div>
+            <div id="but_style"><button id="submit" type="button" onclick="fun1();">Submit</button>
+            <button id="reset" type="reset" onclick="fun_reset()">Reset</button></div>
+        </form>
+        <div class="output_style">
+            <div id="ans">
+                <p id="year"></p>
+                <p id="days"></p>
+                <p id="hour"></p>
+                <p id="min"></p>
+                <p id="sec"></p>
+            </div>
+            </div>
+    </div>
+    <script src="./logic.js"></script>
+</body>
+</html>
