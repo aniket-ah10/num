@@ -1,0 +1,17 @@
+.bebas-neue-regular{
+    font-family: "Bebas Neue", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: xx-large;
+    letter-spacing: 0.12rem;
+    word-spacing: 1rem;
+  }
+  .sign-weight{
+    font-size:50px;
+    letter-spacing: -7px;
+    font-family: "Bebas Neue", serif;
+  }
+  .count{
+    font-family:"Bebas Neue",serif;
+    font-size: 60px;
+  }
