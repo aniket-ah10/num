@@ -1,0 +1,61 @@
+.bebas-neue-regular{
+    font-family: "Bebas Neue", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: xx-large;
+    letter-spacing: 0.11rem;
+  }
+  .bt-style{
+    background-color: rgba(174, 174, 174, 0.237);
+    border :1px solid white;
+  }
+  .bt-style:hover{
+    background-color: rgba(174, 174, 174, 0.886);
+    border:2px solid rgb(100,100,100);
+  }
+  @media (min-width:600px){
+    .bt-style,.input-box{
+        border-radius: 5px;
+        font-weight:400;
+        font-size: larger;
+    }
+    .bt-style{
+        height: 3.4rem;
+    }
+    .input-box{
+        height: 4.5rem;
+        border: 2px solid black;
+        font-size: 30px;
+    }
+  }
+  @media (max-width:600px) {
+    .bt-style,.input-box{
+        border-radius: 5px;
+    }
+    .bt-style{
+      height:3rem;
+    }
+    .input-box{
+        height:3.8rem;
+        border:2px solid black;
+        font-size: 25px;
+    }
+  }
+  .clear-btn{
+    background-color: rgba(255, 0, 0, 0.75);
+    color:white;
+    border:2px solid white ;
+  }
+  .clear-btn:hover{
+    background-color:red;
+    border:2px solid red ;
+  }
+  .submit-btn{
+    background-color: rgba(0, 0, 255, 0.75);
+    color:white;
+    border:2px solid white;
+  }
+  .submit-btn:hover{
+    background-color:blue;
+    border:2px solid blue;
+  }
