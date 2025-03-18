@@ -58,30 +58,4 @@ function extractnumber(s){
         document.querySelector(".ans").value +=num[a]
     }
     document.querySelector(".ans").value += n;
-    /*if(!(n.charAt(n.length-1)=='+'||n.charAt(n.length-1)=='-'||n.charAt(n.length-1)=='/'||n.charAt(n.length-2)=='*')&&(n.charAt(n.length-2)=='+'||n.charAt(n.length-2)=='-'||n.charAt(n.length-2)=='/'||n.charAt(n.length-2)=='*')){
-        num.push(n.substring(0,n.length-2));
-        num.push(n.charAt(n.length-2));
-        console.log(n);
-        n+=n.charAt(n.length-1);
-    }
-    if((n.charAt(n.length-1)=='+'||n.charAt(n.length-1)=='-'||n.charAt(n.length-1)=='/'||n.charAt(n.length-2)=='*')&&(n.charAt(n.length-2)=='+'||n.charAt(n.length-2)=='-'||n.charAt(n.length-2)=='/'||n.charAt(n.length-2)=='*')){
-        n="";
-    }
-    if(num.length==4){
-        let a =0;
-        if(num[1]==="+"){
-            a=parseFloat(num[0])+parseFloat(num[2]);
-        }
-        else if(num[1]==="-"){
-            console.log(num[0]-num[2])
-        }
-        if(num[1]==="*"){
-            console.log(num[0]*num[2])
-        }
-        if(num[1]==="/"){
-            console.log(num[0]/num[2])
-        }
-        num=[];
-        console.log(a);
-    }*/
 }
